@@ -11,7 +11,7 @@ Whoa, chúng ta đã cùng nhau tìm hiểu gần hết các **Operators** thư�
 ```ts
 interval(1000)
   .pipe(map((val) => val * 2))
-  .suscribe(console.log);
+  .subscribe(console.log);
 // output: 0 -- 2 -- 4 -- 6 -- 8
 ```
 
